@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "program"
-version = "0.2.0"
+version = "0.2.1"
 description = ""
 authors = ["Britodfbr <britodfbr@gmail.com>"]
 packages = [
@@ -8,7 +8,7 @@ packages = [
 ]
 
 [tool.poetry.scripts]
-program = 'program.cli:run'
+program = 'incolume.py.program.cli:run'
 
 [tool.poetry.dependencies]
 python = "^3.10"
